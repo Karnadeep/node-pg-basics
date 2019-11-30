@@ -1,0 +1,9 @@
+INSERT INTO public."User"(
+ "Username", "Password")
+	VALUES ( 'anant', '123123123');
+	
+SELECT * FROM "User"	
+
+UPDATE public."User"
+	SET "Username"= 'rana'
+	WHERE "UserID"= '1';
